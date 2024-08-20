@@ -1,0 +1,33 @@
+body {
+    background-color: #FFFBF5;
+    margin: 0px;
+    font-family: "Open Sans", sans-serif;
+}
+
+header {
+    background-color: #DBC4F0;
+    color: #713ABE;
+    text-align: center;
+}
+
+h1 {
+    margin: 0px;
+    padding: 20px;
+}
+
+div {
+    margin: 25px;
+}
+
+footer {
+    padding: 5px 20px;
+    background-color: #DBC4F0;
+}
+
+a {
+    color: #713ABE;
+}
+
+.centered {
+    text-align: center;
+}

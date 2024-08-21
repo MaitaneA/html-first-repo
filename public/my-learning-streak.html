@@ -13,6 +13,10 @@
         .done {
             background-color: green;
         }
+
+        .in-progress {
+            background-image: linear-gradient(to right, seagreen, yellowgreen);
+        }
     </style>
 </head>
 <body>
@@ -24,7 +28,7 @@
         <table>
             <thead>
                 <tr>
-                    <th scope="col">Month</th>
+                    <th scope="col"></th>
                     <th scope="col">1</th>
                     <th scope="col">2</th>
                     <th scope="col">3</th>
@@ -61,26 +65,8 @@
             <tbody>
                 <tr>
                     <th scope="row">August</th>
-                    <td class="not-applicable"></td>
-                    <td class="not-applicable"></td>
-                    <td class="not-applicable"></td>
-                    <td class="not-applicable"></td>
-                    <td class="not-applicable"></td>
-                    <td class="not-applicable"></td>
-                    <td class="not-applicable"></td>
-                    <td class="not-applicable"></td>
-                    <td class="not-applicable"></td>
-                    <td class="not-applicable"></td>
-                    <td class="not-applicable"></td>
-                    <td class="not-applicable"></td>
-                    <td class="not-applicable"></td>
-                    <td class="not-applicable"></td>
-                    <td class="not-applicable"></td>
-                    <td class="not-applicable"></td>
-                    <td class="done"></td>
-                    <td class="done"></td>
-                    <td class="done"></td>
-                    <td class="done"></td>
+                    <td class="not-applicable" colspan="16"></td>
+                    <td class="in-progress done" colspan="5"></td>
                 </tr>
             </tbody>
         </table>
@@ -94,6 +80,7 @@
             <li>how and when to add CSS to the HTML inline, internally and externally</li>
             <li>the CSS box model</li>
             <li>that making colours match is hard</li>
+            <li>to combine CSS selectors</li>
         </ol>
     </div>
     <footer>

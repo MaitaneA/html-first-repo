@@ -1,3 +1,5 @@
+/* GENERAL STYLES */
+
 body {
     background-color: #FFFBF5;
     margin: 0px;
@@ -15,8 +17,12 @@ h1 {
     padding: 20px;
 }
 
+h2 {
+    text-align: center;
+}
+
 div {
-    margin: 25px;
+    margin: 25px 100px;
 }
 
 footer {
@@ -28,6 +34,24 @@ a {
     color: #713ABE;
 }
 
+/* UTILITIES */
+
 .centered {
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* LEARNING STREAK PAGE */
+
+.not-applicable {
+    background-color: lightgray;
+}
+
+.done {
+    background-color: green;
+}
+
+.in-progress {
+    background-image: linear-gradient(to right, seagreen, yellowgreen);
 }

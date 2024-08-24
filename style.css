@@ -47,6 +47,7 @@ footer {
     padding: 5px 20px;
     background-color: #DBC4F0;
     text-align: center;
+    clear: both;
 }
 
 a {
@@ -67,10 +68,28 @@ a {
     top: 4px;
 }
 
+/* COLUMNS */
+
+.column {
+    width: 40%;
+}
+
+.left-2 {
+    float: left;
+    margin-right: 0%;
+    padding-right: 1%;
+    border-right: 3px double #DBC4F0;
+}
+
+.right-2 {
+    float: right;
+    margin-left: 0%;
+}
+
 /* LEARNING STREAK PAGE */
 
 .not-applicable {
-    background-color: lightgray;
+    background-color: gainsboro;
 }
 
 .done {

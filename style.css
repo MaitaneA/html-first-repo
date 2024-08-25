@@ -44,6 +44,9 @@ hr::after {
 }
 
 footer {
+    position: relative;
+    bottom: 0px;
+    width: 100%;
     padding: 5px 20px;
     background-color: #DBC4F0;
     text-align: center;
@@ -68,22 +71,28 @@ a {
     top: 4px;
 }
 
-/* COLUMNS */
+/* COLUMNS - SCREEN SIZE > 768px */
 
-.column {
-    width: 40%;
-}
+@media (min-width: 768px){
+    .column {
+        width: 40%;
+    }
+    
+    .left-2 {
+        float: left;
+        margin-right: 0%;
+        padding-right: 1%;
+        border-right: 3px double #DBC4F0;
+    }
+    
+    .right-2 {
+        float: right;
+        margin-left: 0%;
+    }
 
-.left-2 {
-    float: left;
-    margin-right: 0%;
-    padding-right: 1%;
-    border-right: 3px double #DBC4F0;
-}
-
-.right-2 {
-    float: right;
-    margin-left: 0%;
+    .only-small-screen {
+        display: none;
+    }
 }
 
 /* LEARNING STREAK PAGE */

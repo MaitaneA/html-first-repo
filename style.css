@@ -85,21 +85,27 @@ img {
 
 /* COLUMNS - SCREEN SIZE > 768px */
 
+.only-large-screen {
+    display: none;
+}
+
 @media (min-width: 768px){
+    .columns-2 {
+        display: flex;
+        justify-content: space-evenly;
+        gap: 10px;
+    }
+
     .column {
-        width: 40%;
+        margin: 0px;
+        width: 45%;
     }
-    
-    .left-2 {
-        float: left;
-        margin-right: 0%;
-        padding-right: 1%;
+
+    .vr {
+        display: block;
+        margin: 0px;
+        width: 1px;
         border-right: 3px double #DBC4F0;
-    }
-    
-    .right-2 {
-        float: right;
-        margin-left: 0%;
     }
 
     .only-small-screen {

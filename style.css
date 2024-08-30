@@ -22,7 +22,7 @@ h2 {
 }
 
 div {
-    margin: 25px 7%;
+    margin: 25px 0;
 }
 
 hr {
@@ -41,6 +41,10 @@ hr::after {
     padding: 0 4px;
     position: relative;
     top: -10px;
+}
+
+table {
+    margin-bottom: 20px;
 }
 
 footer {
@@ -70,6 +74,11 @@ img {
 }
 
 /* UTILITIES */
+.main-contents {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .centered {
     text-align: center;
@@ -83,27 +92,28 @@ img {
     top: 4px;
 }
 
-/* COLUMNS - SCREEN SIZE > 768px */
+/* COLUMNS - SCREEN SIZE > 1024px */
 
 .only-large-screen {
     display: none;
 }
 
-@media (min-width: 768px){
+@media (min-width: 1024px){
     .columns-2 {
         display: flex;
         justify-content: space-evenly;
         gap: 10px;
+        margin: 25px 0;
     }
 
     .column {
         margin: 0px;
-        width: 45%;
+        flex: 1;
     }
 
     .vr {
         display: block;
-        margin: 0px;
+        margin: 0 2%;
         width: 1px;
         border-right: 3px double #DBC4F0;
     }

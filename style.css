@@ -86,6 +86,15 @@ img {
     margin-right: auto;
 }
 
+.centered-text {
+    text-align: center;
+}
+
+.data-highlight {
+    font-size: 2rem;
+    color: seagreen;
+}
+
 .checked {
     height: 20px;
     position: relative;
@@ -121,6 +130,17 @@ img {
     .only-small-screen {
         display: none;
     }
+}
+
+/* FLEX BOXES */
+.flex-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+
+.flex-boxes div {
+    margin: 0;
 }
 
 /* LEARNING STREAK PAGE */

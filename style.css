@@ -93,6 +93,8 @@ img {
 .data-highlight {
     font-size: 2rem;
     color: seagreen;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: -10px;
 }
 
 .checked {
